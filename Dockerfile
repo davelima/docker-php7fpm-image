@@ -1,6 +1,6 @@
 FROM phpdockerio/php71-fpm
 
-RUN apt-get update && apt-get install php-mysql -y
+RUN apt-get update && apt-get install php-mysql php-gd php-xdebug php-xcache -y
 
 EXPOSE 80
 
